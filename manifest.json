@@ -1,0 +1,21 @@
+{
+    "name":"Color detection",
+    "description":"A color detection extension",
+    "version":"1.0",
+    "manifest_version":3,
+    "background":{
+        "service_worker":"background.js"
+    },
+    "permissions":[
+        "activeTab",
+        "scripting"
+    ],
+    "action":{
+        "default_popup":"popup.html"
+    },
+    "icons":{
+        "16":"/images/detection_16.png",
+        "32":"/images/detection_32.png",
+        "48":"/images/detection_48.png"
+    }
+}
